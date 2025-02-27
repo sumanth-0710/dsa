@@ -14,9 +14,6 @@ public class Anagram {
             String sub=string.substring(i,i+k.length());
             char[] subString=sub.toCharArray();
             Arrays.sort(subString);
-           /* if(Arrays.toString(chars).equals(Arrays.toString(subString))){
-                ans.add(i);
-            }*/
             if(Arrays.equals(chars,subString)){
                 ans.add(sub);
             }
